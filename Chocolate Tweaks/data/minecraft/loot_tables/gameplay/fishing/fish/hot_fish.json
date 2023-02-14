@@ -1,0 +1,65 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:blaze_powder",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:124,display:{Name:'[{\"text\":\"Fire Fish\",\"italic\":false}]'}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:tropical_fish",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:123,display:{Name:'[{\"text\":\"Goldfish\",\"italic\":false}]'}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"name": "minecraft:cod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:133,display:{Name:'[{\"text\":\"Synodontis\",\"italic\":false}]'}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"name": "minecraft:cod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:131,display:{Name:'[{\"text\":\"Bayad\",\"italic\":false}]'}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"name": "minecraft:cod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:130,display:{Name:'[{\"text\":\"Tilapia\",\"italic\":false}]'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

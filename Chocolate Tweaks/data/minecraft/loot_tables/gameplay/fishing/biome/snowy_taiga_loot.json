@@ -1,0 +1,92 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": {
+				"min": 0,
+				"max": 0
+			},
+			"entries": [
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"weight": 10,
+							"quality": -2,
+							"name": "minecraft:gameplay/fishing/junk"
+						},
+						{
+							"type": "minecraft:loot_table",
+							"weight": 5,
+							"quality": 2,
+							"name": "minecraft:gameplay/fishing/treasure"
+						},
+						{
+							"type": "minecraft:loot_table",
+							"weight": 100,
+							"quality": -2,
+							"name": "minecraft:gameplay/fishing/fish/cold_fish"
+						}
+					]
+				}
+			]
+		}
+	]
+}
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 0
+      },
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "weight": 5,
+              "quality": 5,
+              "name": "minecraft:gameplay/fishing/treasure/treasure_loot"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 100,
+              "quality": -2,
+              "name": "minecraft:gameplay/fishing/fishes/cold_fish_loot"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 80,
+              "quality": -10,
+              "name": "minecraft:gameplay/fishing/foliage/taiga_foliage_loot"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 80,
+              "quality": -10,
+              "name": "minecraft:gameplay/fishing/foliage/snowy_plains_foliage_loot"
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 100,
+                "quality": -20,
+                "name": "minecraft:potion",
+                "functions": [
+                    {
+                        "function": "minecraft:set_nbt",
+                        "tag": "{Potion:\"minecraft:water\"}"
+                    }
+                ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

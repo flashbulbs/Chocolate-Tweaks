@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:pufferfish"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:cod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:141,display:{Name:'[{\"text\":\"Coral Fish\",\"italic\":false}]'}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:tropical_fish"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:128,display:{Name:'[{\"text\":\"Brown Shroomfish\",\"italic\":false}]'}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:127,display:{Name:'[{\"text\":\"Red Shroomfish\",\"italic\":false}]'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

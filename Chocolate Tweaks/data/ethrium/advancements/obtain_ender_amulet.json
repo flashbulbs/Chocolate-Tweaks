@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:popped_chorus_fruit",
+      "nbt": "{CustomModelData:131,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "The Call of Ethrium"
+    },
+    "description": {
+      "text": "Will You Answer?"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/find_end_city",
+  "criteria": {
+    "froglights": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:popped_chorus_fruit"
+            ],
+            "nbt": "{CustomModelData:131}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "froglights"
+    ]
+  ]
+}

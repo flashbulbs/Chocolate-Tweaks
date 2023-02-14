@@ -1,0 +1,630 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/beach_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:beach"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/stony_shore_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:stony_shore"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/mangrove_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:mangrove_swamp"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/cold_ocean_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:cold_ocean"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:deep_cold_ocean"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/frozen_ocean_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:frozen_ocean"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:deep_frozen_ocean"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/lukewarm_ocean_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:lukewarm_ocean"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:deep_lukewarm_ocean"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/lukewarm_ocean_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:warm_ocean"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:deep_warm_ocean"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/ocean_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:ocean"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:deep_ocean"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/frozen_river_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:frozen_river"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/river_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:river"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/desert_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:desert"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:badlands"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:eroded_badlands"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/wooded_badlands_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:wooded_badlands"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/savanna_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:savanna"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:savanna_plateau"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:windswept_savanna"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/plains_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:plains"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:meadow"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/sunflower_plains_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:sunflower_plains"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/mushroom_fields_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:mushroom_fields"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/jungle_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:jungle"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:sparse_jungle"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:bamboo_jungle"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/swamp_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:swamp"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/birch_forest_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:birch_forest"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:old_growth_birch_forest"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/dark_forest_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:dark_forest"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/forest_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:forest"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:windswept_forest"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/flower_forest_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:flower_forest"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/taiga_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:taiga"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:old_growth_pine_taiga"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:old_growth_spruce_taiga"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/snowy_taiga_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:snowy_taiga"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/snowy_plains_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:snowy_plains"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:ice_spikes"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:snowy_slopes"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:frozen_peaks"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/mountains_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:mountains"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:jagged_peaks"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:stony_peaks"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:windswept_hills"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:windswept_gravelly_mountains"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/dripstone_caves_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:dripstone_caves"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:gameplay/fishing/biome/lush_caves_loot",
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:lush_caves"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

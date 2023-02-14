@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "title": "The Imposter",
+    "description": "Kill a Piglin while wearing a Golden Chestplate",
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/distract_piglin",
+  "criteria": {
+    "piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:golden_chestplate"
+              ]
+            },
+            "head": {
+              "items": [
+                "minecraft:golden_helmet"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:golden_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:golden_boots"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:piglin"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "piglin"
+    ]
+  ]
+}

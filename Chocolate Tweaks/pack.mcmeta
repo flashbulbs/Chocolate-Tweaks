@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 10,
+    "description": {
+      "text": "Various Tweaks",
+      "color": "green",
+      "hoverEvent": {
+        "action": "show_text",
+        "value": "And More!"
+      }
+    }
+  }
+}

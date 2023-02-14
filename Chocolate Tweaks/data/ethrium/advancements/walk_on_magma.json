@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_block"
+    },
+    "title": "Nice and Cool",
+    "description": "Walk on Magma Blocks without getting hurt",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
+  "criteria": {
+    "walk_on_magma": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:magma_block"
+                  ]
+                }
+              },
+              "equipment": {
+                "feet": {
+                  "items": [
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:leather_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:diamond_boots"
+                  ],
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:frost_walker",
+                      "levels": {
+                        "min": 1,
+                        "max": 2
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "walk_on_magma"
+    ]
+  ]
+}

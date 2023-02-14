@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": "Cash or Emerald?",
+    "description": "Hold an Emerald",
+    "announce_to_chat": true
+  },
+  "parent": "ethrium:obtain_gold",
+  "criteria": {
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "emerald"
+    ]
+  ]
+}
